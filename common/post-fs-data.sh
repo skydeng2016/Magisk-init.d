@@ -6,4 +6,4 @@ MODDIR=${0%/*}
 # This script will be executed in post-fs-data mode
 ## Script to enable init.d by @androidexpert35
 
-busybox run-parts $MODDIR/system/etc/init.d
+busybox run-parts /system/etc/init.d
